@@ -10,3 +10,11 @@ Extracted 26 features from audio files and built a artificial neural network whi
 There are almost 2.2 lakh labelled images in which 60% images have cancer, 40% images have no cancer
 
 Built a CNN Model 2 predict whether the image has cancer tissue or not
+
+3.) U_NET Algorithm
+
+We trained the unet with (128,128,3) rgb image as input and (128,128,1) mask as output
+
+So, if we give rgb image, it needs to predict the mask image
+
+Pixel level classification thats y 1*1 convolution at the end
